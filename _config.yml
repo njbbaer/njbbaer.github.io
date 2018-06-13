@@ -27,6 +27,17 @@ plugins:
   - jekyll-feed
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
+author:
+  name   : "Nate Baer"
+  bio    : "Software Developer"
+  email  : njbbaer@gmail.com
+  uri    : "https://njbbaer.github.io"
+defaults:
+- scope:
+    path: ""
+    type: posts
+  values:
+    author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
