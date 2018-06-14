@@ -37,7 +37,6 @@ author:
 defaults:
 - scope:
     path: ""
-    type: posts
   values:
     author_profile: true
 
