@@ -27,6 +27,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 author:
   name     : "Nate Baer"
+  avatar   : "/assets/images/nate-headshot.jpg"
   bio      : "Software Developer"
   email    : "njbbaer@gmail.com"
   uri      : "https://njbbaer.github.io"
