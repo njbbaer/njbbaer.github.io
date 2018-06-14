@@ -19,8 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal website for Nate Baer, Software Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://njbbaer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: njbbaer
-github_username:  njbbaer
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 plugins:
@@ -28,10 +26,13 @@ plugins:
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 author:
-  name   : "Nate Baer"
-  bio    : "Software Developer"
-  email  : njbbaer@gmail.com
-  uri    : "https://njbbaer.github.io"
+  name     : "Nate Baer"
+  bio      : "Software Developer"
+  email    : "njbbaer@gmail.com"
+  uri      : "https://njbbaer.github.io"
+  github   : "njbbaer"
+  linkedin : "njbbaer"
+  facebook : "njbbaer"
 defaults:
 - scope:
     path: ""
