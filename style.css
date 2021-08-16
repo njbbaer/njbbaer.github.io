@@ -1,0 +1,21 @@
+p {
+  color: #6c757d;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.social-icon img {
+  height: 40px;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.social-icon:first-of-type img {
+  margin-left: 0px;
+}
+
+.procore_logo {
+  margin-left: 5px;
+  vertical-align: baseline;
+  height: 28px;
+}
