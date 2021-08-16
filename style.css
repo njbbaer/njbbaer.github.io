@@ -4,6 +4,10 @@ p {
   font-weight: 300;
 }
 
+h1 {
+  margin-bottom: 1rem !important
+}
+
 .social-icon img {
   height: 40px;
   opacity: 0.8;
