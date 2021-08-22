@@ -12,6 +12,7 @@ h1 {
   height: 40px;
   opacity: 0.8;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .social-icon:first-of-type img {
