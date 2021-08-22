@@ -5,7 +5,7 @@ p {
 }
 
 h1 {
-  margin-bottom: 1rem !important
+  margin-bottom: 1rem !important;
 }
 
 .social-icon img {
@@ -25,5 +25,5 @@ h1 {
 }
 
 .card-img-top {
-  padding: 5%;
+  padding: 10%;
 }
