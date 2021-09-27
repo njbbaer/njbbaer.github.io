@@ -1,4 +1,4 @@
-p {
+p, td {
   color: #6c757d;
   font-size: 1.25rem;
   font-weight: 300;
@@ -11,7 +11,7 @@ h1 {
 .social-icon img {
   height: 2rem;
   opacity: 0.8;
-  margin-left: 10px;
+  margin-left: 0.5rem;
   cursor: pointer;
 }
 
@@ -28,4 +28,14 @@ h1 {
 .card-img-top {
   width: 50% !important;
   padding: 1.5rem;
+}
+
+.dot {
+  height: var(--size);;
+  width: var(--size);;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
 }
