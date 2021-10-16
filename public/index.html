@@ -21,9 +21,9 @@
           <h1 class="fw-light">Hi, I'm Nate!</h1>
           <p>I'm a software engineer, with experience building web based apps and APIs.</p>
           <p>Learn more about me, right here.</p>
-          <a class="social-icon" href="https://github.com/njbbaer"><img src="images/github_icon.png"></a>
-          <a class="social-icon" href="https://www.linkedin.com/in/njbbaer/"><img src="images/linkedin_icon.png"></a>
-          <a class="social-icon" onclick="copyEmailClipboard()"><img src="images/email_icon.png"></a>
+          <a class="social-icon" href="https://github.com/njbbaer"><img src="%PUBLIC_URL%/images/github_icon.png"></a>
+          <a class="social-icon" href="https://www.linkedin.com/in/njbbaer/"><img src="%PUBLIC_URL%/images/linkedin_icon.png"></a>
+          <a class="social-icon" onclick="copyEmailClipboard()"><img src="%PUBLIC_URL%/images/email_icon.png"></a>
         </div>
       </div>
     </section>
@@ -32,7 +32,7 @@
         <h1>
           I work at
           <a href="https://www.procore.com/">
-            <img class="procore_logo" src="images/procore_logo.png">
+            <img class="procore_logo" src="%PUBLIC_URL%/images/procore_logo.png">
           </a>
         </h1>
         <p>Building the open API that powers its industry leading cloud-based construction software.</p>
@@ -133,7 +133,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
           <div class="col">
             <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="images/uci_logo.png">
+              <img class="card-img-top" src="%PUBLIC_URL%/images/uci_logo.png" style="width: 50% !important">
               <div class="card-body">
                 <h5 class="card-title">University of California Irvine</h5>
                 <p class="card-text"><b>Software Engineering M.S.</b><br>2012 - 2016</p>
@@ -142,7 +142,7 @@
           </div>
           <div class="col">
             <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="images/rensselaer_logo.png">
+              <img class="card-img-top" src="%PUBLIC_URL%/images/rensselaer_logo.png"  style="width: 60% !important">
               <div class="card-body">
                 <h5 class="card-title">Rensselaer Polytechnic Institute</h5>
                 <p><b>Computer Science B.S.</b><br>2012 - 2016</p>
@@ -162,7 +162,7 @@
         <div class="row g-4">
           <div class="col-12 col-xl-8">
             <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="images/procore_logo.png">
+              <img class="card-img-top" src="%PUBLIC_URL%/images/procore_logo.png">
               <div class="card-body">
                 <h5 class="card-title">Procore</h5>
                 <p class="card-text"><b>Senior Software Engineer</b> (since 2020)<br>2018 - Present<br>Carpinteria, CA</p>
@@ -175,7 +175,7 @@
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="images/athenahealth_logo.png" style="width: 75% !important">
+              <img class="card-img-top" src="%PUBLIC_URL%/images/athenahealth_logo.png" style="width: 70% !important">
               <div class="card-body">
                 <h5 class="card-title">athenahealth</h5>
                 <p class="card-text"><b>Software Engineering Intern</b><br>Summer 2016<br>San Francisco, CA</p>
@@ -184,7 +184,7 @@
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="images/intuit_logo.png">
+              <img class="card-img-top" src="%PUBLIC_URL%/images/intuit_logo.png">
               <div class="card-body">
                 <h5 class="card-title">Intuit</h5>
                 <p class="card-text"><b>Software Engineering Intern</b><br>Summers 2015 and 2014<br>Mountain View & San Diego, CA</p>
@@ -193,7 +193,7 @@
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="images/gnf_novartis_logo.png" style="width: 65% !important">
+              <img class="card-img-top" src="%PUBLIC_URL%/images/gnf_novartis_logo.png" style="width: 55% !important">
               <div class="card-body">
                 <h5 class="card-title">GNF</h5>
                 <p class="card-text"><b>Informatics Intern</b><br>Summer 2013 and 2012<br>La Jolla, CA</p>
@@ -220,6 +220,7 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-	  <script src="index.js"></script>
+  
+    <div id="root"></div>
   </body>
 </html>
