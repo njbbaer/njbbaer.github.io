@@ -28,6 +28,7 @@ h1 {
 .card-img-top {
   width: 18rem !important;
   padding: 1.5rem;
+  padding-bottom: 8px;
 }
 
 .dot {
