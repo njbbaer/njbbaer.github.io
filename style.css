@@ -19,7 +19,7 @@ h1 {
   margin-left: 0px;
 }
 
-.procore_logo {
+.procore-logo {
   margin-left: 5px;
   vertical-align: baseline;
   height: 28px;
@@ -39,4 +39,15 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.5rem;
+}
+
+.filler-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filler-card > img {
+  width: 8rem;
+  height: 8rem;
 }
